@@ -12,7 +12,7 @@ class ProfileSpider(scrapy.Spider):
     allowed_domains = ['instagram.com']
     start_urls = ['https://www.instagram.com/']
     username = 'kuritsenko.sergei'
-    enc_password = '#PWD_INSTAGRAM_BROWSER:10:1604597936:AR9QAKeC4l3NUeZ8mizShbqI8mqaItS+zHBt7Yr2gP78xdRxUOQASgp3AeexkTjbqFynbGgMgQrmhLisINzePfCAmFB3HcrAgCfe24HlBaOSMj4SR4oAwO4VKXJQHktEiW6VqM6B+hIcy2C+sYlCGw=='
+    enc_password = '**************'
     login_endpoint = 'https://www.instagram.com/accounts/login/ajax/'
     target_profiles = ['marta_8220', 'mukhtarenlik']
     graphql_url = 'https://www.instagram.com/graphql/query/?'
